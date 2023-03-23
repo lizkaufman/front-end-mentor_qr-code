@@ -26,9 +26,11 @@ body {
   display: flex;
   flex-direction: column;
   padding: 1em;
-  margin: 1.6em;
+  margin: 1.6em auto;
   background-color: var(--white);
   border-radius: 25px;
+  min-width: 275px;
+  max-width: 330px;
 }
 
 #qr-code {
