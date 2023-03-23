@@ -10,18 +10,23 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Outfit", sans-serif;
 }
 
 body {
   background-color: var(--light-grey);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
 }
 
 #qr-container {
   display: flex;
   flex-direction: column;
   padding: 1em;
-  margin: 1em;
+  margin: 1.6em;
   background-color: var(--white);
   border-radius: 25px;
 }
@@ -30,10 +35,21 @@ body {
   border-radius: 15px;
 }
 
+#qr-text {
+  padding: 1.2em 1em;
+}
+
 #qr-heading {
-  font-size: 25px;
+  font-size: 1.4em;
+  color: var(--dark-blue);
 }
 
 #qr-body-text {
   font-size: 15px;
+  color: var(--grey-blue);
+  padding-top: 1em;
+}
+
+#attribution {
+  font-size: 0.7em;
 }
